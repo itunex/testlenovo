@@ -2,7 +2,8 @@ name: deploy-manifests
 
 on:
   push:
-    branches: [master]
+    branches:
+      - master
     paths:
       - 'infra/**'
       
