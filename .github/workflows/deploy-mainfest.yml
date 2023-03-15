@@ -28,3 +28,4 @@ jobs:
            base64-kube-config: ${{ secrets.KUBE_CONFIG }}
       - run: kubectl apply -f infra/k8s
       
+#
