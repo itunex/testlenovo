@@ -1,7 +1,7 @@
 function Welcome({Component,pageProps}){
     return(<div>
 
-        <p>Welcome, This is a Test Page!!!!</p>
+        <p>Welcome, This is a Test Page</p>
         </div>
 
     )
