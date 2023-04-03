@@ -9,12 +9,12 @@ metadata:
 spec:
   tls:
     - hosts:
-      - photoguru.de
-      - www.photoguru.de
+      - photogurus.de
+      - www.photogurus.de
   rules:
     - host: photogurus.de
       http:
-        paths:
+        paths: 
           - path: /api/users/?(.*)
             pathType: Prefix
             backend:
