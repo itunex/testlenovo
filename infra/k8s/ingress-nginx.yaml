@@ -11,6 +11,7 @@ spec:
     - hosts:
       - photogurus.de
       - www.photogurus.de
+  ingressClassName: nginx    
   rules:
     - host: photogurus.de
       http:
