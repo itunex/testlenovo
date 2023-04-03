@@ -8,8 +8,8 @@ metadata:
     
 spec:
   rules:
-    - host: photoguru.de
-      https:
+    - host: photogurus.de
+      http:
         paths:
           - path: /api/users/?(.*)
             pathType: Prefix
